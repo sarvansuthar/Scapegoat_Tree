@@ -500,6 +500,6 @@ int main()
             printf("Wrong choice!");
         }
     }
-    free(A);
     A=NULL;
+    free(A);
 }
